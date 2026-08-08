@@ -1,0 +1,53 @@
+# ==========================================
+# CollabSphere - Git Ignore
+# ==========================================
+
+# Environment / secrets
+.env
+.env.*
+config/database.php
+config/database.local.php# IDE / Editor
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Dependencies
+vendor/
+node_modules/
+
+# User-generated uploads
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Alternative upload/storage folders
+storage/uploads/*
+!storage/uploads/.gitkeep
+
+# Local backups
+*.bak
+*.backup
+*.zip
+*.rar
+
+# Ignore SQL dumps by default
+*.sql
+
+# Keep the clean project database schema
+!database/schema.sql
+
+# Development / diagnostic files
+test-database.php
+test-schema.php
