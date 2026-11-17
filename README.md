@@ -1,5 +1,8 @@
 # CollabSphere LMS
 
+> **Project showcase:** [Browse the static portfolio](portfolio/index.html) · [GitHub Pages publishing guide](PORTFOLIO.md)
+
+
 <p align="center">
   <img src="public/assets/images/collabsphere-logo.png" alt="CollabSphere Logo" width="130">
 </p>
